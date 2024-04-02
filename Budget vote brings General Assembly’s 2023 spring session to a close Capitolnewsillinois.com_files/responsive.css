@@ -1,0 +1,47 @@
+﻿.sr-bannerDisplayFlex {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+    .sr-bannerDisplayFlex > span {
+        margin: 5px;
+    }
+
+    .sr-bannerDisplayFlex a {
+        display: flex;
+        align-self: center;
+        margin: 5px;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+        .sr-bannerDisplayFlex a img {
+            display: inline-block;
+            width: 100%;
+            height: auto;
+        }
+
+/*Small devices (767px and below)*/
+@media only screen and (max-width: 767px) {
+    .sr-bannerDisplayFlex > span {
+        width: 100% !important;
+    }
+        .sr-bannerDisplayFlex > span > div {
+            width: 100% !important;
+        }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+    .sr-bannerDisplayFlex a {
+        width: auto;
+        max-width: 100%;
+    }
+}

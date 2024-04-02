@@ -1,0 +1,42 @@
+
+/* Set text size in modules*/
+.Normal,
+.NormalDisabled,
+.NormalDeleted {
+    color: #444;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5em;
+    word-wrap: break-word;
+}
+/*test homepage*/
+.edr_carousel.NewsOne .wrapper .slider ul li > .box1 h1 a {
+  font-size:16px;
+  line-height:18px;
+  text-decoration: none;
+  color: #1e3964;
+}
+.edr_carousel.NewsOne .wrapper .slider ul li > .box1 .content {
+  color: #1e3964;
+  font-size: 14px;
+  line-height: 18px;
+}
+/* Set Styles for Podcast Buttons*/
+.podcasts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .podcasts a {
+    text-decoration: none;
+  }
+.podcasts img {
+padding: 2px;
+}
+  @media only screen and (max-width: 768px) {
+    .podcasts img {
+      width: 48%; /* Adjust width for desired layout on smaller screens */
+      padding: 2px;
+    }
+  }
